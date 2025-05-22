@@ -1,15 +1,15 @@
 import time
 import random
+import argparse
 
 #Local Script
-
 def print_random_words(word_bank, count, lag_duration):
     for _ in range(count):
         word = random.choice(word_bank)
         print(word)
         time.sleep(random.randint(1, 240))  # Random interval between 1 and 240 seconds
-    print("Introducing lag...")
-    time.sleep(lag_duration)  # Introduce a 5-minute lag
+    #print("Introducing lag...")
+    time.sleep(lag_duration)  # Introduce a lag
 
 joker = [
     "What doesn't kill you simply makes you stranger!", 
@@ -39,5 +39,10 @@ joker = [
     "If I weren't insane, I couldn't be so brilliant!"
 ]
 
-# Print 5 words at random intervals and then introduce a 5-minute (300 seconds) lag
-print_random_words(joker, 5, 300)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Prints random Joker quotes with a configurable lag.")
+    parser.add_argument("--lag", type=int, default=300, help="Lag duration in seconds after printing quotes (default: 300)")
+    parser.add_argument("--count", type=int, default=5, help="Number of quotes to print (default: 5)")
+    args = parser.parse_args()
+
+    print_random_words(joker, args.count, args.lag)
