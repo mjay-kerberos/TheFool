@@ -214,7 +214,3 @@ pytest
 Thefool is protected under the [LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
-
-<div align="left"><a href="#top">⬆ Return</a></div>
-
----
