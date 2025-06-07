@@ -44,7 +44,7 @@
 
 ## Overview
 
-TheFool is a cutting-edge red team toolkit designed to introduce controlled chaos into systems, enhancing security testing by simulating real-world attack scenarios. 
+TheFool is a red team toolkit designed to introduce controlled chaos into systems, enhancing security testing by simulating real-world attack scenarios. 
 
 **Why TheFool?**
 
@@ -53,7 +53,7 @@ This project empowers developers to proactively identify vulnerabilities and str
 - 🎭 **Persistent Connection:** Establishes a continuous link to remote servers for seamless command execution and file retrieval.
 - ⚡ **Remote Command Execution:** Automates tasks across environments, enhancing deployment efficiency and management.
 - 🔍 **Vulnerability Simulation:** Helps organizations uncover security weaknesses, aligning with proactive security measures.
-- 📊 **Visual Data Representation:** Transforms complex datasets into graphical formats for easier analysis and comprehension.
+- 📊 **Visual Attack Representation:** Transforms complex datasets into graphical formats for easier analysis and comprehension.
 - 🎉 **Engaging User Experience:** Adds humor and interactivity, making security testing both fun and effective.
 - 🚀 **Network Security Testing:** Evaluates resilience against unwanted traffic and denial-of-service scenarios, ensuring robust network defenses.
 
